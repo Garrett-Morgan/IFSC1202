@@ -3,12 +3,12 @@ FromValue = float( input("Enter from Value: "))
 FromUnit = input("Enter from Unit(in, ft, yd, mi): ")
 if(FromUnit in("in", "ft", "yd", "mi")):
     print("Nice")
-else: print("FromUnit not Valid.")
+else: print("FromUnit not Valid.") (quit())
 
 ToUnit = input("Enter to Unit(in, ft, yd, mi): ")
 if(ToUnit in("in", "ft", "yd", "mi")):
     print("Nice")
-else: print("ToUnit not Valid.")        #End of Inputs
+else: print("ToUnit not Valid.") (quit())       #End of Inputs
 
 if(FromUnit in("in")):       #if FromValue = in
     if(ToUnit in("in")): print(FromValue)

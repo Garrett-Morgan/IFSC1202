@@ -18,6 +18,8 @@ class Car ():
 
     def Brake(self, x): 
         self.Speed =  self.Speed + x
+        if self.Speed < 0:
+            self.speed = 0
         return self.Speed
 
 
